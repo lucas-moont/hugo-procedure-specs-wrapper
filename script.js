@@ -113,3 +113,15 @@ if (procedureBtns.length > 0) {
     });
   });
 }
+
+if(closeProcedureBtn){
+  closeProcedureBtn.addEventListener('click', () => {
+    closeSpecsWrapper()
+  })
+}
+
+function closeSpecsWrapper(){
+ if(procedureSpecsWrapper){
+  procedureSpecsWrapper.style.display = 'none'
+ } 
+}
