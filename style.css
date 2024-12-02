@@ -2,8 +2,24 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+}
+
 .text-align-right {
   text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-m {
+  gap: 32px;
 }
 
 .procedure-specs-wrapper {
@@ -18,6 +34,9 @@
   border-radius: 32px;
   height: calc(100vh - 64px);
   overflow-y: scroll;
+}
+.procedure-specs-wrapper .col {
+  width: 50%;
 }
 
 .close-procedure-specs-btn {
@@ -36,6 +55,21 @@
 }
 .close-procedure-specs-btn:hover {
   background-color: #B98B69;
+}
+
+.procedure-name {
+  font-size: 34px;
+  color: #B98B69;
+  margin-bottom: 0px;
+}
+
+.procedure-description {
+  font-size: 18px;
+  margin: 0;
+}
+
+#procedure-specs-details {
+  margin: 16px 0 32px;
 }
 
 .custom-container {
