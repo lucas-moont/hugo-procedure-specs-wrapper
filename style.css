@@ -1,1 +1,44 @@
+* {
+  box-sizing: border-box;
+}
 
+.text-align-right {
+  text-align: right;
+}
+
+.procedure-specs-wrapper {
+  background-color: rgba(31, 31, 31, 0.3333333333);
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+.procedure-specs-wrapper .custom-container {
+  background-color: #FFF;
+  padding: 32px;
+  border-radius: 32px;
+  height: calc(100vh - 64px);
+  overflow-y: scroll;
+}
+
+.close-procedure-specs-btn {
+  background-color: #D4CDBB;
+  border: 0;
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: #FFF;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.close-procedure-specs-btn:hover {
+  background-color: #B98B69;
+}
+
+.custom-container {
+  width: 100%;
+  max-width: 800px;
+}
